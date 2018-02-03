@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+        <Button
+            android:id="@+id/back_button20"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/ic_action_back"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="115dp"
+            android:text="我的收益"
+            android:textColor="#202020"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:background="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectred3"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textColor="#ff1111"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可提现金额（元）"
+            android:textColor="#909090"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"/>
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="提现"
+            android:textSize="10sp"
+            android:textColor="#ff1111"
+            android:background="@drawable/rectred2"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:background="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rectred3"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp">
+
+        <com.yanggeapp.yangge.Me.Money.MoneyView
+            android:id="@+id/list_view"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"/>
+    </LinearLayout>
+</LinearLayout>

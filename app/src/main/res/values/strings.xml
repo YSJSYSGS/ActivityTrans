@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YangGe</string>
+    <string name="login">登录天数：%1$d天</string>
+    <string name="release">只可发布三篇文章%1$d/3)</string>
+    <string name="follow">%1$d\n我的关注</string>
+    <string name="fans">%1$d\n我的粉丝</string>
+    <string name="output">%1$d\n我的发布</string>
+    <string name="collect">%1$d\n我的收藏</string>
+    <string name="set">\u0040设置</string>
+    <string name="money1">\u00A5 1</string>
+    <string name="money6">\u00A5 6</string>
+    <string name="money10">\u00A5 10</string>
+    <string name="money20">\u00A5 20</string>
+    <string name="money100">\u00A5 100</string>
+    <string name="title_activity_base">BaseActivity</string>
+</resources>

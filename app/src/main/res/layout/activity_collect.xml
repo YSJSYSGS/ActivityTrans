@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+        <Button
+            android:id="@+id/back_button10"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/ic_action_back"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="126dp"
+            android:text="我的收藏"
+            android:textColor="#202020"
+            android:textSize="16sp"/>
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_action_search1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+    <com.yanggeapp.yangge.Collect.CollectView
+        android:id="@+id/list_view4"
+        android:background="#ffffff"
+        android:scrollbars="none"
+        android:divider="#eeeeee"
+        android:dividerHeight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

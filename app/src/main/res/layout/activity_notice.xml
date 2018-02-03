@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+        <Button
+            android:id="@+id/back_button22"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/ic_action_back"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="115dp"
+            android:text="消息"
+            android:textColor="#202020"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/comment"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/comments"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_vertical"/>
+                <Button
+                    android:id="@+id/great"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/great"
+                    android:layout_margin="20dp"/>
+                <Button
+                    android:id="@+id/care"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/care"
+                    android:layout_margin="20dp"/>
+                <Button
+                    android:id="@+id/reward"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rewards"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+            <com.yanggeapp.yangge.Me.Notice.NoticeView
+                android:id="@+id/list_view5"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="viewHolderdraftpicType" type="id"/>
+    <item name="viewHolderdraftType" type="id"/>
+    <item name="viewHoldernoticebonType" type="id"/>
+    <item name="viewHoldernoticeType" type="id"/>
+    <item name="viewHoldernoticegreatType" type="id"/>
+    <item name="viewHoldernoticecareType" type="id"/>
+    <item name="viewHoldernoticerewardType" type="id"/>
+</resources>
